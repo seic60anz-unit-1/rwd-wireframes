@@ -38,17 +38,20 @@
     .header {
         grid-column: 1/1;
         grid-row: 1/2;
+        border-radius: 25px;
     }
     
     .main-content {
         grid-column: 1/1;
         grid-row: 2/5;
+        border-radius: 25px;
     
     }
     
     .sidebar {
         grid-column: 1/1;
         grid-row: 5/6;
+        border-radius: 25px;
     }
 
 
