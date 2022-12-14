@@ -1,0 +1,54 @@
+.header, .container section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+  }
+
+  h2 {
+    font-size: 42px;
+    font-family: sans-serif;
+    color: #555;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #fff;
+  }
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "section-b section-c section-d"
+    "section-e section-f section-g"
+    "section-h section-h section-h"
+    "section-h section-h section-h";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    .section-b {
+        grid-area: section-b;
+    }
+
+    .section-c {
+        grid-area: section-c;
+    }
+    .section-d {
+        grid-area: section-d;
+    }
+    .section-e {
+        grid-area: section-e;
+    }
+    .section-f {
+        grid-area: section-f;
+    }
+    .section-g {
+        grid-area: section-g;
+    }
+    .section-h {
+        grid-area: section-h;
+    }
