@@ -10,7 +10,6 @@
 .header {
     grid-column: 1/5;
     grid-row: 1/2;
-    height: auto;
 }
 
 .main-content {
@@ -24,8 +23,7 @@
     grid-row: 2/4;
 }
 
-@media screen 
-  and (max-width: 400px) 
+@media (max-width: 600px) 
   and (max-height: 800px) {
 
     .container {
@@ -40,7 +38,6 @@
     .header {
         grid-column: 1/1;
         grid-row: 1/2;
-        height: auto;
     }
     
     .main-content {
