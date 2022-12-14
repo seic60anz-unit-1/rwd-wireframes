@@ -8,6 +8,9 @@
 
 ---
 
-Recreate the following responsive design wireframes. The images on the left represent the browser at desktop width while the images on the right represent the same browser but at mobile width. Feel free to choose whichever one you want to start with, just note you will need to make three separate html and css files for each different one! 
+Recreate the following responsive design wireframes. The images on the left represent the browser at desktop width while the images on the right represent the same browser but at mobile width. Feel free to choose whichever one you want to start with, just note you will need to make three separate css files for each different one! 
 
 ![](https://i.imgur.com/NZ0moP0.png)
+
+### Starter files
+The starter files ([uno.html](uno.html), [dos.html](dos.html), [tres.html](tres.html)) have the html already written with some basic styling.
